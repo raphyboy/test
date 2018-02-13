@@ -1,0 +1,38 @@
+﻿
+table.dataTable {
+  font-size: 13px;
+}
+.checkbox {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 5px 12px;
+  font-weight: bold;
+  color: #2196F3;
+}
+
+.custom-list li {
+  list-style: none;
+  border: 1px solid #ccc;
+  background: #F6F6F6;
+  color: #0c86e6;
+  margin: 5px;
+  padding: 5px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+.custom-list li.txt-red {
+  color: #BD0000;
+}
+
+.sortable li {
+  cursor:move;
+}
+
+.sortable .placeholder {
+  border: 1px dashed #FF9800;
+}
+
+.disorplay {
+  float: right;
+}

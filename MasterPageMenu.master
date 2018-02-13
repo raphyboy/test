@@ -1,0 +1,77 @@
+<%@ Master Language="VB" CodeFile="MasterPageMenu.master.vb" Inherits="MasterPageMenu" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+     <!--Style-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/feasibility.css" /> 
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--Style-->
+        
+        <!-- Style Panu -->
+        <!--<link type="text/css" rel="stylesheet" href="App_Inc/_css/reset.css" />
+
+	    <script type="text/javascript" src="App_Inc/jquery-1.11.3.min.js"></script>-->
+
+	    <link rel="stylesheet" type="text/css" href="App_Inc/jquery-ui-1.11.4/jquery-ui.css"/>
+	    <script type="text/javascript" src="App_Inc/jquery-ui-1.11.4/jquery-ui.js"></script>
+
+	    <!--<link rel="stylesheet" href="App_Inc/bootstrap/css/bootstrap.css" />
+	    <script type="text/javascript" src="App_Inc/bootstrap/js/bootstrap.js"></script>-->
+
+        <link rel="stylesheet" type="text/css" href="App_Inc/DataTables/datatables.css"/>
+        <script type="text/javascript" src="App_Inc/DataTables/datatables.js"></script>
+
+	    <link type="text/css" rel="stylesheet" href="App_Inc/_css/gly-spin.css" />
+	    <!-- <link type="text/css" rel="stylesheet" href="App_Inc/_css/main.css?v=3" /> -->
+	    <link type="text/css" rel="stylesheet" href="App_Inc/_css/pagedata.css?v=3" />
+
+        <script type="text/javascript" src="App_Inc/_js/panu.js?v=3"></script>
+        <script type="text/javascript" src="App_Inc/_js/load_modal.js?v=3"></script>
+        <!-- Style Panu -->
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-default" style="margin-bottom: 0px;margin-left: -2px;margin-right: -2px;">
+    	<div class="container-fluid" >
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="#">FEASIBILITY</a>
+    		</div>
+    	</div>
+    </nav>
+    <asp:LinkButton ID="lblUser" runat="server"></asp:LinkButton>
+   
+    <div class="container-fluid">
+    <div class="row">
+ 
+    <div class="col-md-2 sidebar">
+      <h3>LEFT BODY</h3>  
+        <div class="list-group">
+            <a id="Create" runat="server" href="#create" class="list-group-item active">Create Project</a>
+            <a id="Edit" runat="server" href="#edit" class="list-group-item">Edit Project</a>
+            <a id="Approve" runat="server" href="#approve" class="list-group-item">Approve Project</a>
+            <a id="menu3" runat="server" href="#menu3" class="list-group-item">Fourth item</a>
+        </div>
+    </div>
+
+
+    
+   <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+   </asp:contentplaceholder>
+
+    <div class="clearfix visible-lg"></div> 
+    
+    </div>
+    </div>
+    </form>
+</body>
+</html>
+
+
+<asp:ContentPlaceHolder ID="ScriptContent" runat="server"></asp:ContentPlaceHolder>

@@ -1,0 +1,140 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+
+html, 
+body {
+    height: 100%;
+}
+body {
+  overflow-y: scroll;
+  padding-top: 50px;
+}
+body .container{
+  min-height: 75%;
+}
+
+.modal-title {
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: #c5c5c5 0px 1px 4px;
+  font-family: 'Kanit', sans-serif;
+}
+.navbar-inverse {
+    background-color: #153040;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #0088f5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+}
+.navbar-form {
+  margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.glyphicon-off.user_logon {
+  margin: 2px 0px 4px 0px;
+  font-size:12px; 
+  font-weight:bold; 
+  color:#F44336;
+  /*color:#C50000;*/
+}
+
+.breadcrumb, .breadcrumb li a {
+  font-family: 'Mitr', sans-serif;
+  color: #999;
+}
+
+.breadcrumb li a:hover {
+  /*color: #2196f3;*/
+  color: #31708f;
+  text-decoration: none;
+}
+
+.breadcrumb > .active {
+  color: #31708f;
+}
+
+footer {
+  padding-top: 25px;
+  font-size: 12px;
+  /*font-weight: bold;*/
+  color: #444;
+  font-family: 'Mitr', sans-serif;
+}
+
+.panel-fonting {
+  font-family: 'Mitr', sans-serif;
+}
+
+
+.txt-blue {
+  color: #245a79;
+}
+.txt-blue-light {
+  color: #0088f5;
+}
+.txt-blue-highlight {
+  color: blue;
+}
+.txt-orange {
+  color: #f7941d;
+}
+.txt-red {
+  color: #BD0000;
+}
+.txt-green {
+  color: #449200;
+}
+.txt-gray {
+  color: gray;
+}
+.txt-bold {
+  font-weight: bold;
+}
+
+.space-br {
+  height: 15px;
+}
+.left-label {
+  text-align: left !important;
+}
+
+p#txt_alert {
+  line-height: 28px;
+}
+
+/*page loading*/
+#page_loading {
+  /*display:flex;
+  justify-content:center;*/
+  opacity: .5;
+}
+#page_loading .in-loading {
+ /*align-self: center;*/
+ display: table;
+ margin: 100px auto;
+ color: white;
+ font-size: 18px;
+}
+
+
+/*datatable fixedHeader custom*/
+.fixedHeader-floating{
+  top: 45px !important;
+}

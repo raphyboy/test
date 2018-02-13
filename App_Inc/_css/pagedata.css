@@ -1,0 +1,145 @@
+﻿
+.filter-bar{
+	padding: 10px 0px;
+}
+#btn_new_request{
+	float: left;
+}
+#btn_filter_search{
+	padding: 9px 15px;
+}
+
+.label {
+	font-size: 85%;
+}
+.label.flow-sts {
+	line-height: 18px;
+	padding: 5px 10px;
+}
+.label-complete {
+	background-color: #ff9800;
+}
+
+.panel-gray > .panel-heading {
+    background-color: #e3e3e3;
+}
+.panel-space {
+	padding: 0px 15px 0px 15px;
+}
+.panel-space > .panel-heading {
+	background-color: #fff; 
+	padding-left: 0;
+}
+.panel-group {
+    margin-top: 5px;
+}
+/*.form-group .control-label, .input-sm {*/
+.panel-body, .form-control {
+	font-size: 13px;
+}
+.panel-bar {
+    border-color: #FF9800;
+}
+.panel-bar > .panel-heading {
+    color: #ffffff;
+    background-color: #FF9800;
+    border-color: #FF5722;
+}
+.panel-heading .radio-inline {
+    padding-left: 0px;
+    padding-right: 35px;
+}
+
+
+.form-500 input[type="text"], .form-500 input[type="file"], .form-500 select, .form-500 textarea ,.input-500 .form-control {
+	width: auto;
+	min-width: 500px;
+	max-width: 100%;
+}
+.form-group input.width700, .form-group select.width700 {
+	min-width: 650px;
+}
+
+.box-search {
+	width: auto;
+	min-width: 250px;
+	max-width: 100%;
+}
+
+
+.input-group-addon {
+	width: 0; 
+}
+input[type="text"].input-addon-email{
+	min-width: 175px;
+	width: auto;
+}
+input[type="text"].input-addon-bath{
+	min-width: 450px;
+}
+
+.info-warning {
+	color: #ff4900;
+	background-color: #ffeaca;
+	border-color: #ffeaca;
+}
+
+input.error, select.error {
+	border: 1px solid #ff5b00;
+}
+
+input.error:focus, select.error:focus {
+	border: 1px solid #ff5b00;
+	box-shadow: 0px 0px 7px #F44336;
+}
+
+.required label:after, 
+.required-f label:after,
+.required-n label:after { 
+	content: "*";
+	color: #BD0000;
+}
+
+.table-striped > tbody > tr.current-flow {
+	background-color: #e3e3e3;
+}
+
+.count-acc-close, .count-acc-process {
+	display: none;
+	font-size: 11px;
+	margin-left: 10px;
+	margin-top:-4px
+}
+
+.count-acc-close {
+	background-color: #ff9800;
+}
+
+a.btn-addon {
+	cursor: pointer;
+}
+a.btn-addon:hover {
+	text-decoration: none;
+}
+a.txt-red:hover {
+    color: #860000;
+}
+
+/*custombootstap*/
+.panel-info {
+    border-color: #bcddf1;
+}
+.panel-info > .panel-heading {
+    color: #31708f;
+    background-color: #C7E2F3;
+    border-color: #bcddf1;
+}
+.panel-danger {
+    border-color: #F8BAC7;
+}
+.panel-danger > .panel-heading {
+    color: #a94442;
+    background-color: #ebccd1;
+    border-color: #F8BAC7;
+}
+/*custombootstap*/
